@@ -1,0 +1,20 @@
+package br.uece.ppgcc.programa.dto;
+
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class ProgramaDTO {
+
+    private String code;
+    private String sigla;
+    private String description;
+}
+
